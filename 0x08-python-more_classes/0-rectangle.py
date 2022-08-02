@@ -3,6 +3,7 @@
 Defines Empty class Rectangle
 """
 
+
 class Rectangle():
     """
     Defines empty class rectangle
