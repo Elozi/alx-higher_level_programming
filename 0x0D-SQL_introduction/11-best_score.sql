@@ -1,3 +1,3 @@
--- Update data in table; change Bob's score to 10
+-- list all records in the table in descending order
 
-UPDATE second_table SET `score` = 10 WHERE `name` = 'Bob';
+SELECT score, name FROM second_table WHERE score >= 10 ORDER BY score DESC;
